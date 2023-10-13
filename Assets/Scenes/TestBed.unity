@@ -173,6 +173,12 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 33ca68d14ad0cff4eb697f28faee7cee, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &94810063
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,7 +580,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: -0, y: 4.79433e-40, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 7.45739e-40, z: -0, w: 1}
   m_LocalPosition: {x: 52.040443, y: 53.78859, z: -10.879064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

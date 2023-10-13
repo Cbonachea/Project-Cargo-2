@@ -114,6 +114,7 @@ public class ShipController : MonoBehaviour
         rb_ship.angularDrag = 0f;
         rb_ship.gravityScale = 0.4f;
         shipSprite.enabled = false;
+        audioManager.Play("Explosion");
         rb_ship.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
         explosion.Play();
         EngineOff();
